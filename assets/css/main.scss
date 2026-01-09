@@ -107,3 +107,108 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* Dark Theme Enhancements */
+body {
+    background-color: #1a1a2e;
+    color: #e4e4e7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f4f4f5;
+}
+
+.author__name {
+    color: #f4f4f5;
+}
+
+.author__bio {
+    color: #a1a1aa;
+}
+
+.author__urls-wrapper a {
+    color: #60a5fa;
+    &:hover {
+        color: #93c5fd;
+    }
+}
+
+/* Section Styling */
+h1 {
+    border-bottom: 2px solid #3a3a5c;
+    padding-bottom: 0.5em;
+    margin-top: 2em;
+}
+
+h3 {
+    color: #a5b4fc;
+    margin-top: 1.5em;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #3a3a5c;
+    margin: 2em 0;
+}
+
+/* News Box Dark Style */
+div[style*="overflow-y: auto"] {
+    background-color: #16213e !important;
+    border-color: #3a3a5c !important;
+}
+
+/* Right Side TOC Navigation */
+.toc-nav {
+    position: fixed;
+    right: 20px;
+    top: 100px;
+    width: 180px;
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+    background: #16213e;
+    border-radius: 8px;
+    padding: 1em;
+    border: 1px solid #3a3a5c;
+    z-index: 100;
+
+    @media (max-width: 1200px) {
+        display: none;
+    }
+
+    .toc-title {
+        font-weight: bold;
+        color: #a5b4fc;
+        margin-bottom: 0.8em;
+        font-size: 0.9em;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        margin: 0.4em 0;
+    }
+
+    a {
+        color: #a1a1aa;
+        font-size: 0.85em;
+        text-decoration: none;
+        display: block;
+        padding: 0.2em 0;
+        transition: color 0.2s;
+
+        &:hover {
+            color: #60a5fa;
+        }
+
+        &.active {
+            color: #60a5fa;
+            font-weight: 500;
+        }
+    }
+}
