@@ -17,19 +17,20 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# **Welcome to My Page!**
+# **Welcome to my homepage!**
 
-I am currently an **LLM Algorithm Engineer at [AutoCoder.cc](https://www.autocoder.cc/)**.
+I am currently an **AI Infrastructure / Training Systems Engineer** at **[AutoCoder.cc](https://www.autocoder.cc/)**
 
-I previously worked as a **Senior Researcher at [Huawei Cloud Architecture Innovation Lab (Cloud Lab)](https://www.huaweicloud.com/lab/cloud/home.html)** in a Fellow- and Academician-led research environment. My work focuses on **large-scale LLM/MoE inference**, **energy-aware adaptive inference**, **memory offloading**, and **distributed AI systems**.
+My work focuses on **large-scale LLM training systems**, where I optimize system efficiency and hardware utilization through **Model FLOPs Utilization (MFU) improvement**, **communication–computation overlap**, **operator / kernel fusion**, and **runtime-level scheduling and memory optimization**. I work closely with distributed training stacks to improve scalability, throughput, and cost-efficiency of foundation model training.
 
-I also conducted research at the **[Guangming Laboratory](https://www.gml.ac.cn/kytd/189.html)** (Intelligent Recommendation & Resource Scheduling Group), led by **Academician Zhong Ming**.
+Previously, I was a **Senior Researcher at [Huawei Cloud Architecture Innovation Lab (Cloud Lab)](https://www.huaweicloud.com/lab/cloud/home.html)**, working in Fellow- and Academician-led research environments on **MoE inference**, **memory offloading**, and **cloud-scale AI infrastructure**. I also conducted research at the **[Guangming Laboratory](https://www.gml.ac.cn/kytd/189.html)** (Intelligent Recommendation & Resource Scheduling Group).
 
 My research and engineering interests include:
-- Energy-aware and sustainable LLM inference
-- Large-scale MoE systems and adaptive inference frameworks
-- Cloud-native AI infrastructure and distributed systems
-- Multi-agent reasoning and controllable generation
+- Large-scale LLM training systems and AI infrastructure
+- Model FLOPs Utilization (MFU) optimization and system efficiency
+- Communication–computation overlap and operator / kernel fusion
+- Distributed training systems and memory-efficient execution
+- Scalable inference systems for large models (LLMs, MoE)
 
 # 🔥 News
 <span id="news"></span>
@@ -42,6 +43,15 @@ My research and engineering interests include:
   <li><strong>2023.08</strong>: 📈 FRCP capacity forecasting system deployed at large scale</li>
 </ul>
 </div>
+
+# 🎖 Honors and Awards
+<span id="honors"></span>
+- *2025.10* **ICT Software Competition: Ranked 14 / 5200+**
+- *2024* **Huawei "Tomorrow Star" Award**
+- *2024* **Golden Cloud Award**
+- *2024* **HCS Cloud Summit Star**
+- *2022* **Huawei "Tomorrow Star" Award**
+- **Huawei Trusted Professional Certification**
 
 # 💻 Experience
 <span id="experience"></span>
@@ -105,7 +115,8 @@ My research and engineering interests include:
 
 ### Preprints & Submissions (Under Review)
 
-**EcoThink: A Green Adaptive Inference Framework for Sustainable and Accessible Agents**
+<span id="ecothink"></span>
+<u><b>EcoThink: A Green Adaptive Inference Framework for Sustainable and Accessible Agents</b></u>
 Linxiao Li\*, Zhixiang Lu\*
 *Submitted to WWW 2026 (Special Track: Web4Good)*
 
@@ -116,7 +127,8 @@ Linxiao Li\*, Zhixiang Lu\*
 
 ---
 
-**MAPS: Multi-Agent Perspective-taking Strategy for Hierarchical Empathetic Response Generation**
+<span id="maps"></span>
+<u><b>MAPS: Multi-Agent Perspective-taking Strategy for Hierarchical Empathetic Response Generation</b></u>
 Linxiao Li, Jinyi Zhang, Sangsha Fang, Jingxiang Qiu
 *ACL ARR 2026 January Submission (Long Paper)*
 
@@ -128,21 +140,13 @@ Linxiao Li, Jinyi Zhang, Sangsha Fang, Jingxiang Qiu
 ---
 
 ### Patents
-- **Inference Optimization Method for MoE Models**, Invention Patent (High-potential)
+<span id="moe-patent"></span>
+- <u><b>Inference Optimization Method for MoE Models</b></u>, Invention Patent (High-potential)
 
 ### Technical Systems & Engineering Artifacts
 - Large-scale MoE inference system with expert memory offloading
 - Energy-aware adaptive inference framework for LLM agents
 - Distributed QoS modeling and capacity forecasting platform
-
-# 🎖 Honors and Awards
-<span id="honors"></span>
-- *2025.10* **ICT Software Competition: Ranked 14 / 5200+**
-- *2024* **Huawei "Tomorrow Star" Award**
-- *2024* **Golden Cloud Award**
-- *2024* **HCS Cloud Summit Star**
-- *2022* **Huawei "Tomorrow Star" Award**
-- **Huawei Trusted Professional Certification**
 
 # 📖 Educations
 <span id="education"></span>
