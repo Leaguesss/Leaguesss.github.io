@@ -44,14 +44,45 @@ My research and engineering interests include:
 </ul>
 </div>
 
-# 🎖 Honors and Awards
-<span id="honors"></span>
-- *2025.10* **ICT Software Competition: Ranked 14 / 5200+**
-- *2024* **Huawei "Tomorrow Star" Award**
-- *2024* **Golden Cloud Award**
-- *2024* **HCS Cloud Summit Star**
-- *2022* **Huawei "Tomorrow Star" Award**
-- **Huawei Trusted Professional Certification**
+# 📄 Publications & Patents
+<span id="publications"></span>
+
+> *\* denotes corresponding author. \*\* denotes equal contribution.*
+
+### Preprints & Submissions (Under Review)
+
+<span id="ecothink"></span>
+<u><b>EcoThink: A Green Adaptive Inference Framework for Sustainable and Accessible Agents</b></u>
+Linxiao Li\*, Zhixiang Lu\*
+*Submitted to WWW 2026 (Special Track: Web4Good)*
+
+- Proposes an energy-aware adaptive inference framework for LLM-based agents
+- Introduces a lightweight distillation-based router to skip unnecessary reasoning
+- Achieves **40.4% average energy reduction** (up to **81.9%**) with no statistically significant performance loss
+- Aligns with **UN SDG 13 (Climate Action)** and **SDG 10 (Reduced Inequalities)**
+
+---
+
+<span id="maps"></span>
+<u><b>MAPS: Multi-Agent Perspective-taking Strategy for Hierarchical Empathetic Response Generation</b></u>
+Linxiao Li, Jinyi Zhang, Sangsha Fang, Jingxiang Qiu
+*ACL ARR 2026 January Submission (Long Paper)*
+
+- Training-free multi-agent framework decomposing empathy into cognitive, affective, and behavioral dimensions
+- Hierarchical strategy selection with inter-agent communication and emotional memory
+- Achieves **71.8% strategy F1** (+8.7% relative improvement) and **70–77% human preference**
+- Designed for general emotional support (non-clinical)
+
+---
+
+### Patents
+<span id="moe-patent"></span>
+- <u><b>Inference Optimization Method for MoE Models</b></u>, Invention Patent (High-potential)
+
+### Technical Systems & Engineering Artifacts
+- Large-scale MoE inference system with expert memory offloading
+- Energy-aware adaptive inference framework for LLM agents
+- Distributed QoS modeling and capacity forecasting platform
 
 # 💻 Experience
 <span id="experience"></span>
@@ -108,45 +139,14 @@ My research and engineering interests include:
 - Ensured low latency, high concurrency, and high reliability
 - **0 P3 incidents** over 6+ months in production
 
-# 📄 Publications & Patents
-<span id="publications"></span>
-
-> *\* denotes corresponding author. \*\* denotes equal contribution.*
-
-### Preprints & Submissions (Under Review)
-
-<span id="ecothink"></span>
-<u><b>EcoThink: A Green Adaptive Inference Framework for Sustainable and Accessible Agents</b></u>
-Linxiao Li\*, Zhixiang Lu\*
-*Submitted to WWW 2026 (Special Track: Web4Good)*
-
-- Proposes an energy-aware adaptive inference framework for LLM-based agents
-- Introduces a lightweight distillation-based router to skip unnecessary reasoning
-- Achieves **40.4% average energy reduction** (up to **81.9%**) with no statistically significant performance loss
-- Aligns with **UN SDG 13 (Climate Action)** and **SDG 10 (Reduced Inequalities)**
-
----
-
-<span id="maps"></span>
-<u><b>MAPS: Multi-Agent Perspective-taking Strategy for Hierarchical Empathetic Response Generation</b></u>
-Linxiao Li, Jinyi Zhang, Sangsha Fang, Jingxiang Qiu
-*ACL ARR 2026 January Submission (Long Paper)*
-
-- Training-free multi-agent framework decomposing empathy into cognitive, affective, and behavioral dimensions
-- Hierarchical strategy selection with inter-agent communication and emotional memory
-- Achieves **71.8% strategy F1** (+8.7% relative improvement) and **70–77% human preference**
-- Designed for general emotional support (non-clinical)
-
----
-
-### Patents
-<span id="moe-patent"></span>
-- <u><b>Inference Optimization Method for MoE Models</b></u>, Invention Patent (High-potential)
-
-### Technical Systems & Engineering Artifacts
-- Large-scale MoE inference system with expert memory offloading
-- Energy-aware adaptive inference framework for LLM agents
-- Distributed QoS modeling and capacity forecasting platform
+# 🎖 Honors and Awards
+<span id="honors"></span>
+- *2025.10* **ICT Software Competition: Ranked 14 / 5200+**
+- *2024* **Huawei "Tomorrow Star" Award**
+- *2024* **Golden Cloud Award**
+- *2024* **HCS Cloud Summit Star**
+- *2022* **Huawei "Tomorrow Star" Award**
+- **Huawei Trusted Professional Certification**
 
 # 📖 Educations
 <span id="education"></span>
