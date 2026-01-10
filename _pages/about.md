@@ -37,7 +37,7 @@ My research and engineering interests include:
 <div style="height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; border-radius: 5px; background-color: #f9f9f9;">
 <ul style="margin:0; padding-left:20px; list-style-type:disc;">
   <li><strong>2025.12</strong>: 🚀 Joined <strong>AutoCoder.cc</strong> as LLM Algorithm Engineer</li>
-  <li><strong>2025.10</strong>: 🎉 Ranked <strong>14 / 5200+</strong> in Huawei ICT Software Competition</li>
+  <li><strong>2025.07</strong>: 🎉 Ranked <strong>14 / 5200+</strong> in Huawei ICT Software Competition — Top 3 in Huawei Cloud, 1st in Chengdu Research Institute (20+ product lines)</li>
   <li><strong>2025.03</strong>: 🚀 Led MoE memory offloading system with <strong>&lt;3%</strong> operator overhead</li>
   <li><strong>2024.09</strong>: 🏆 Received <strong>Golden Cloud Award</strong> & <strong>HCS Cloud Summit Star</strong></li>
   <li><strong>2023.08</strong>: 📈 FRCP capacity forecasting system deployed at large scale</li>
@@ -141,7 +141,7 @@ Linxiao Li, Jinyi Zhang, Sangsha Fang, Jingxiang Qiu
 
 # 🎖 Honors and Awards
 <span id="honors"></span>
-- *2025.10* **ICT Software Competition: Ranked 14 / 5200+**
+- *2025* **Huawei ICT Software Competition**: Ranked 14 / 5200+ overall, Top 3 in Huawei Cloud, 1st in Chengdu Research Institute; awarded at AT Conference by institute leadership
 - *2024* **Huawei "Tomorrow Star" Award**
 - *2024* **Golden Cloud Award**
 - *2024* **HCS Cloud Summit Star**
@@ -184,6 +184,6 @@ GPA: 4.0 / 4.0
 <hr class="horizontal-line">
 <div style="width: 30%; margin: 0 auto;">
   <p style="text-align: center; color: grey; font-size: small;">
-    © Leo (Linxiao) Li | Last updated: Jan 2025
+    © Leo (Linxiao) Li | Last updated: Jan 2026
   </p>
 </div>
