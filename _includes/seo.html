@@ -9,6 +9,50 @@
 {% endif %}
 
 <title>{{ site.title }} - Homepage</title>
+<meta name="description" content="Leo (Linxiao) Li | 李麟霄 - LLM Algorithm Engineer, AI Infrastructure Engineer. Former Senior Researcher at Huawei Cloud Lab. Research on LLM training systems, MoE inference, and distributed computing. WWW 2026 paper author.">
+<meta name="keywords" content="Linxiao Li, Li Linxiao, Leo Li, 李麟霄, Leo Linxiao Li, LLM Engineer, AI Infrastructure, Huawei Cloud, Machine Learning, Deep Learning, WWW 2026, EcoThink, University of Sydney, UCLA">
+<meta name="author" content="Leo (Linxiao) Li, 李麟霄">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Leo (Linxiao) Li | 李麟霄 - AI Engineer">
+<meta property="og:description" content="LLM Algorithm Engineer @ AutoCoder.cc | Former Senior Researcher @ Huawei Cloud Lab | WWW 2026 Paper Author">
+<meta property="og:url" content="https://leo-lilinxiao.github.io/">
+<meta property="og:site_name" content="Leo (Linxiao) Li">
+<meta property="og:locale" content="en_US">
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Leo (Linxiao) Li",
+  "alternateName": ["Linxiao Li", "Li Linxiao", "Leo Li", "李麟霄"],
+  "url": "https://leo-lilinxiao.github.io",
+  "sameAs": [
+    "https://scholar.google.com/citations?user=W_GiJZsAAAAJ",
+    "https://orcid.org/0009-0004-6927-7267",
+    "https://github.com/leo-lilinxiao",
+    "https://www.linkedin.com/in/leo-li-446371103"
+  ],
+  "jobTitle": "LLM Algorithm Engineer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "AutoCoder.cc"
+  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "The University of Sydney"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "University of California, Los Angeles"
+    }
+  ],
+  "knowsAbout": ["LLM", "AI Infrastructure", "Machine Learning", "Deep Learning", "Distributed Systems"]
+}
+</script>
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}

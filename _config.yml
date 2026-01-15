@@ -6,9 +6,10 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
+title                    : "Leo (Linxiao) Li | 李麟霄"
+description              : "Leo (Linxiao) Li | 李麟霄 - LLM Algorithm Engineer @ AutoCoder.cc | Former Senior Researcher @ Huawei Cloud Lab"
+url                      : "https://leo-lilinxiao.github.io"
+repository               : "leo-lilinxiao/leo-lilinxiao.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,14 +22,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Lorem ipsum"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
+  name             : "Leo (Linxiao) Li"
+  avatar           : "images/profile.jpg"
+  bio              : "AI Infrastructure & LLM Systems"
+  location         : "Chengdu, China"
   employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
+  pubmed           :
+  googlescholar    : "https://scholar.google.com/citations?user=W_GiJZsAAAAJ"
+  email            : "llinxiao520@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,21 +38,21 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "leo-lilinxiao"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : "leo-li-446371103"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  orcid            : "https://orcid.org/0009-0004-6927-7267"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
   xing             :

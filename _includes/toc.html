@@ -1,0 +1,51 @@
+<nav class="toc-nav">
+  <div class="toc-title">Navigation</div>
+  <ul>
+    <li><a href="#about-me">About</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#publications">Publications</a></li>
+    <li><a href="#honors">Honors</a></li>
+    <li><a href="#education">Education</a></li>
+  </ul>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Smooth scroll for TOC links
+  document.querySelectorAll('.toc-nav a').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href').slice(1);
+      const target = document.getElementById(targetId);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+
+  // Active state on scroll
+  const navLinks = document.querySelectorAll('.toc-nav a');
+  const sectionIds = ['about-me', 'news', 'experience', 'publications', 'honors', 'education'];
+
+  window.addEventListener('scroll', function() {
+    let current = '';
+    sectionIds.forEach(id => {
+      const section = document.getElementById(id);
+      if (section) {
+        const sectionTop = section.offsetTop;
+        if (scrollY >= sectionTop - 150) {
+          current = id;
+        }
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove('active');
+      if (link.getAttribute('href').slice(1) === current) {
+        link.classList.add('active');
+      }
+    });
+  });
+});
+</script>
